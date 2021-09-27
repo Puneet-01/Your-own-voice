@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+        <div class="Box">
+
+            <h2>Login</h2>
+            <div class="Cred">
+                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                <label id="user" for="username"></label>
+                <input type="text" placeholder="Enter Username" name="username" required>
+                <br>
+            </div> 
+            <div class="Cred" >
+                <!-- Password field -->
+            Password: <input type="password" value="FakePSW" id="myInput">
+
+            <!-- An element to toggle between password visibility -->
+            <input type="checkbox" onclick="myFunction()">Show Password
+                <br>
+            
+            </div>
+            <div>
+            <button class="but" type="submit"> <a href="home.html" style="text-decoration: none; color: black;" >Login</a></button>
+            
+            <div>
+                <button class="but" type="submit">Sign-in</button>
+            </div>
+
+            <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-app.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-auth.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-firestore.js"></script>
+            <!-- TODO: Add SDKs for Firebase products that you want to use
+                https://firebase.google.com/docs/web/setup#available-libraries -->
+            <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-analytics.js"></script>
+
+            <script>
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            var firebaseConfig = {
+                apiKey: "AIzaSyDAQH5gTylkJAJiDusHICa1QLS80gWkU_4",
+                authDomain: "your-own-voice.firebaseapp.com",
+                projectId: "your-own-voice",
+                storageBucket: "your-own-voice.appspot.com",
+                messagingSenderId: "199976068871",
+                appId: "1:199976068871:web:d0a291b57aa200b42e87a2",
+                measurementId: "G-3FE56HK3QN"
+            };
+            const auth = firebse.auth();
+            const db =firebase.firestore();
+
+            db.settings({ timestampsInSnapshots: true});
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            firebase.analytics();
+            </script>
+            <script>
+                
+                function myFunction() {
+                    var x = document.getElementById("myInput");
+                    if (x.type === "password") {
+                      x.type = "text";
+                    } else {
+                      x.type = "password";
+                    }
+                  }
+            </script>
+        <script src="auth.js"></script>
+    </body>
+</html>
