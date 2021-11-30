@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<hyml>
+
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    </head>
+    <style>
+        body {
+  font-family: "Lato", sans-serif;
+  
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
+    </style>
+
+    <body >
+    <nav style="background-color: turquoise;">
+
+        <div class="Top-Nav" style="background-color:#818181;">
+    
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="home.html">Home</a>
+                <a href="#">Profile</a>
+                <a href="Trending.html">Trending</a>
+                <a href="Categories.html">Categories</a>
+              </div>
+              <div  class="position-absolute" style="margin-left: 60px; margin-top: 15px;">
+                <input type="text" placeholder="Search News"  style="text-align: left;">
+            </div>  
+        </div>
+              <div id="main">
+                
+                
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-3" style="position: -webkit-sticky; position: sticky;" >
+
+            <ul class="list-group" >
+                <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #ffc2b3;font-family: 'Trirong', serif;">
+                    Elections
+                    <span class="badge badge-primary badge-pill">14</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #ffc2b3;font-family: 'Trirong', serif;">
+                    Business
+                    <span class="badge badge-primary badge-pill">5</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #ffc2b3;font-family: 'Trirong', serif;">
+                    Technology
+                    <span class="badge badge-primary badge-pill">3</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #ffc2b3;font-family: 'Trirong', serif;">
+                    Entertainment
+                    <span class="badge badge-primary badge-pill">3</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #ffc2b3;font-family: 'Trirong', serif;">
+                    Lifestyle
+                    <span class="badge badge-primary badge-pill">1</span>
+                </li>
+            </ul>
+            <br/>
+            <div class="jumbotron" style="background-color:#ffc2b3;box-shadow:10px 10px 8px gray; height:500px;font-family: 'Trirong', serif;">
+                <h1 class="display-7">
+                    Political tension rises in WB
+                </h1>
+                <p class="lead">The political tension between BJP and TMC rises as we head to phase four of WB polling.
+                </p>
+            </div>
+        </div>
+            <div class="col-9">
+                <h2 style="text-align: left; font-family: 'Bad Script';">Corona in Mumbai :</h2>
+                    <img src="Mumbai-lockdown.jpg" height="300px" width="400px" style="margin-left: 300px;">
+                    <p>Mumbai reported 7,381 new Covid-19 cases and 57 fresh fatalities on Monday, the city civic body said.
+                        With the new cases and fatalities, the Covid-19 infection count jumped to 5,86,692, while the death toll rose to 12,404, according to the Brihanmumbai Municipal Corporation's (BMC) updated data.</p>
+                        
+                        <p>The financial capital has reported nearly 1,100 less cases compared to Sunday, but the fatalities went up by four.
+                            On Sunday, Mumbai had reported 8,479 cases and 53 fatalities.
+                            </p>
+                        <p>Also, 8,583 patients were discharged from hospitals during the day, pushing the tally of recovered cases to 4,86,622, the data showed.
+                            Mumbai now has 86,410 active cases, the BMC said.
+                            The city's highest one-day tally of 11,163 Covid-19 cases was recorded on April 4, 2021.
+                            According to the civic body's data, 36,556 Covid-19 tests were conducted in the last 24 hours, down from 46,971 on Sunday.</p>
+                        <p>The city's Covid-19 recovery rate stood at 83 per cent, while the case growth rate was 1.46 per cent, the BMC said.
+                            According to the data, Mumbai currently has 106 containment zones in slums and 'chawls' (old row tenements) and 1,171 sealed buildings.</p>    
+
+                
+                
+                
+                
+                
+                <script alt="image" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+          integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+          crossorigin="anonymous"></script>
+      <script alt="image" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+          integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+          crossorigin="anonymous"></script>
+      <script alt="image" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+          integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+          crossorigin="anonymous"></script>
+
+      <script>
+          function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+      document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
+
+      
+      function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+      document.body.style.backgroundColor = "white";
+      }
+      </script>
+    </body>
+</html>

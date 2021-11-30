@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<hyml>
+
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    </head>
+    <style>
+        body {
+  font-family: "Lato", sans-serif;
+  
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
+    </style>
+
+    <body >
+    <nav style="background-color: turquoise;">
+
+        <div class="Top-Nav" style="background-color:#818181;">
+            
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="../Home/home.html">Home</a>
+                <a href="../profile/Profile.html">Profile</a>
+                
+                
+                <a href="./Categories.html">Categories</a>
+                <a href="../contact/Contact.html">Contact Us</a>
+              </div>
+              <div  class="position-absolute" style="margin-left: 60px; margin-top: 15px;">
+                <input type="text" placeholder="Search News"  style="text-align: left;">
+                <button style="background-color:crimson; border: hidden; border-radius: 10%;"> <a href="Corona.html" style="color: wheat;">Search</a></button>
+            </div>  
+            
+        </div>
+              <div id="main">
+                
+                
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-3" style="position: -webkit-sticky; position: sticky;" >
+
+            <ul class="list-group" >
+                <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #ffc2b3;font-family: 'Trirong', serif;">
+                    Elections
+                    <span class="badge badge-primary badge-pill">14</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #ffc2b3;font-family: 'Trirong', serif;">
+                    Business
+                    <span class="badge badge-primary badge-pill">5</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #ffc2b3;font-family: 'Trirong', serif;">
+                    Technology
+                    <span class="badge badge-primary badge-pill">3</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #ffc2b3;font-family: 'Trirong', serif;">
+                    Entertainment
+                    <span class="badge badge-primary badge-pill">3</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #ffc2b3;font-family: 'Trirong', serif;">
+                    Lifestyle
+                    <span class="badge badge-primary badge-pill">1</span>
+                </li>
+            </ul>
+            <br/>
+            <div class="jumbotron" style="background-color:#ffc2b3;box-shadow:10px 10px 8px gray; height:500px;font-family: 'Trirong', serif;">
+                <h1 class="display-7">
+                    Political tension rises in WB
+                </h1>
+                <p class="lead">The political tension between BJP and TMC rises as we head to phase four of WB polling.
+                </p>
+            </div>
+        </div>
+            <div class="col-9">
+                <h2 style="text-align: left; font-family: 'Bad Script';">Corona :</h2>
+                <div class="card-group" style="border-bottom-style: solid; padding-bottom: 50px;">
+                    <div class="card">
+                      <img class="card-img-top" src="../Assets/Mumbai-lockdown.jpg" alt="Card image cap" height="150px">
+                      <div class="card-body">
+                        <a href="CoronaMumbai.html" style="font-size: 25px;">Coronavirus in Mumbai</a>
+                        <p class="card-text">Mumbai reported 7,381 cases and 57 fresh fatalities on Monday</p>
+                        
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="../Assets/vaccine.jpeg" alt="Card image cap" height="150px">
+                      <div class="card-body">
+                        <a href="Vaccine.html" style="font-size: 25px;">Coronavirus Vaccine</a>
+                        <p class="card-text">Some Women are experiencing this unsual side-effect after getting COVID-19 shot</p>
+                        
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="../Assets/delhi-lockdown.jpeg" alt="Card image cap" height="150px">
+                      <div class="card-body">
+                        <a href="#" style="font-size: 25px;">Delhi Lockdown</a>
+                        <p class="card-text">Chandani Chowk, other markets under self-imposed lockdown from today due to corona surge</p>
+                        
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="../Assets/highlights.jpeg" alt="Card image cap" height="150px">
+                        <div class="card-body">
+                            <a href="#" style="font-size: 25px;">Coronavirus Highlights</a>
+                          <p class="card-text">No let up in Covid surge as Maharashtra, Delhi & UP see highest daily spike</p>
+                          
+                        </div>
+                      </div>
+                      
+                  </div>
+                  <h2 style="text-align: left; font-family: 'Bad Script'; margin-top: 50px;">IPL :</h2>
+                <div class="card-group" style="border-bottom-style: solid; padding-bottom: 50px;">
+                    <div class="card">
+                      <img class="card-img-top" src="../Assets/cskvsrr.jpeg" alt="Card image cap" height="150px">
+                      <div class="card-body">
+                        <a href="CSKvsRR.html" style="font-size: 25px;">Csk vs Rr</a>
+                        <p class="card-text">MS Dhoni not happy with score, says, ‘should have scored more’ after easy win against RR</p>
+                        
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="../Assets/dcvsmi.jpeg" alt="Card image cap" height="150px">
+                      <div class="card-body">
+                        <a href="DCvsMI.html" style="font-size: 25px;">DC vs MI Dream 11 prediction</a>
+                        <p class="card-text">Captain, Vice-Captain, Fantasy Playing Tips, Today’s Probable XIs For Today’s Delhi Capitals vs Mumbai Indians T20 Match 13 at MA. Chidambaram, Chennai 7.30 PM IST April 20 Tuesday</p>
+                        
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="../Assets/dcvspbks.jpeg" alt="Card image cap" height="150px">
+                      <div class="card-body">
+                        <a href="DCvsPBKS.html" style="font-size: 25px;">DC vs PBKS</a>
+                        <p class="card-text">Dhawan 92 powers Delhi Capitals to six-wicket win over hapless Punjab</p>
+                        
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="../Assets/rcbvskkr.jpeg" alt="Card image cap" height="150px">
+                        <div class="card-body">
+                            <a href="#" style="font-size: 25px;">Rcb vs Kkr</a>
+                          <p class="card-text">Highlights, IPL 2021, RCB vs KKR Match 10, Full Cricket Score: Maxwell, de Villiers star as dominant Bangalore clinch third straight win</p>
+                          
+                        </div>
+                      </div>
+                      
+                  </div>
+
+                  <h2 style="text-align: left; font-family: 'Bad Script'; margin-top: 50px;">Elections :</h2>
+                <div class="card-group" style="border-bottom-style: solid; padding-bottom: 50px;">
+                    <div class="card">
+                      <img class="card-img-top" src="../Assets/Puducherry.jpeg" alt="Card image cap" height="150px">
+                      <div class="card-body">
+                        <a href="Puducherry.html" style="font-size: 25px;">Puducherry Votes</a>
+                        <p class="card-text">The process was by and large peaceful barring the odd complaints about temporary EVM snags in a few polling stations</p>
+                        
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="../Assets/camapign ban.webp" alt="Card image cap" height="150px">
+                      <div class="card-body">
+                        <a href="campaign.html" style="font-size: 25px;">Ban on campaign</a>
+                        <p class="card-text">24-Hour Campaign Ban On Bengal BJP, Trinamool Leaders For Controversial Remarks</p>
+                        
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="../Assets/mamta.jpeg" alt="Card image cap" height="150px">
+                      <div class="card-body">
+                        <a href="mamta.html" style="font-size: 25px;">Mamta not to campaign Anymore</a>
+                        <p class="card-text">Mamata Banerjee Won't Campaign In Kolkata Anymore, Says Trinamool Leader</p>
+                        
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="../Assets/keralavoters.jpeg" alt="Card image cap" height="150px">
+                        <div class="card-body">
+                            <a href="kerela.html" style="font-size: 25px; ">Record turnout in Kerela</a>
+                          <p class="card-text">The Left Democratic Front (LDF) had come to power when polling touched an all-time high of 80.53% in the State in the 1987 Assembly polls and 77.35% in the 2016 polls.</p>
+                          
+                        </div>
+                      </div>
+                      
+                  </div>
+                  <h2 style="text-align: left; font-family: 'Bad Script'; margin-top: 50px;">Education :</h2>
+                <div class="card-group" style="border-bottom-style: solid; padding-bottom: 50px;">
+                    <div class="card">
+                      <img class="card-img-top" src="../Assets/andhrapradesh.jpg" alt="Card image cap" height="150px">
+                      <div class="card-body">
+                        <a href="#" style="font-size: 25px;">Andhra Pradesh</a>
+                        <p class="card-text">Andhra Pradesh SSC, Inter exams 2021 to held as per schedule, schools closed till Class 9: CM</p>
+                        
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="../Assets/IIMRohtak.jpg" alt="Card image cap" height="150px">
+                      <div class="card-body">
+                        <a href="#" style="font-size: 25px;">Convocation at IIM Rohtak</a>
+                        <p class="card-text">IIM Rohtak virtually hosts annual convocation, 480 MBA students conferred with degrees</p>
+                        
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="../Assets/tamilnadu+2.jpg" alt="Card image cap" height="150px">
+                      <div class="card-body">
+                        <a href="#" style="font-size: 25px;">Tamil Nadu +2 public exam postponed</a>
+                        <p class="card-text">Though the Class 12 public examination is deferred, the ongoing practicals would be conducted as per plan, the government said in an official release.</p>
+                        
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="../Assets/exam.jpg" alt="Card image cap" height="150px">
+                        <div class="card-body">
+                            <a href="#" style="font-size: 25px;">NATA 2021 results release date and time</a>
+                          <p class="card-text">The candidates will have to score a minimum of 75 marks out of 200 marks to qualify the paper. The NATA scorecard will be valid only for the 2021-22 academic session.</p>
+                          
+                        </div>
+                      </div>
+                      
+                  </div>
+            </div>
+            <div style="justify-content: center; margin-top: 90px;margin-left: 600px;padding-bottom: 30px;">
+                <div class="pagination" class="justify-content-center;">
+                    <a href="#">&laquo;</a>
+                    <a class="active" href="#">1</a>
+                    <a  href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">&raquo;</a>
+                </div>
+            </div>
+
+
+
+          <script alt="image" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+          integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+          crossorigin="anonymous"></script>
+      <script alt="image" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+          integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+          crossorigin="anonymous"></script>
+      <script alt="image" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+          integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+          crossorigin="anonymous"></script>
+
+      <script>
+          function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+      document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
+
+      
+      function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+      document.body.style.backgroundColor = "white";
+      }
+      </script>
+    </body>
+</html>

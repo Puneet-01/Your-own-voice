@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<hyml>
+
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    </head>
+    <style>
+        body {
+  font-family: "Lato", sans-serif;
+  
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
+    </style>
+
+    <body >
+    <nav style="background-color: turquoise;">
+
+        <div class="Top-Nav" style="background-color:#818181;">
+    
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="home.html">Home</a>
+                <a href="#">Profile</a>
+                <a href="Trending.html">Trending</a>
+                <a href="Categories.html">Categories</a>
+              </div>
+              <div  class="position-absolute" style="margin-left: 60px; margin-top: 15px;">
+                <input type="text" placeholder="Search News"  style="text-align: left;">
+            </div>  
+        </div>
+              <div id="main">
+                
+                
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-3" style="position: -webkit-sticky; position: sticky;" >
+
+            <ul class="list-group" >
+                <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #ffc2b3;font-family: 'Trirong', serif;">
+                    Elections
+                    <span class="badge badge-primary badge-pill">14</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #ffc2b3;font-family: 'Trirong', serif;">
+                    Business
+                    <span class="badge badge-primary badge-pill">5</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #ffc2b3;font-family: 'Trirong', serif;">
+                    Technology
+                    <span class="badge badge-primary badge-pill">3</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #ffc2b3;font-family: 'Trirong', serif;">
+                    Entertainment
+                    <span class="badge badge-primary badge-pill">3</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #ffc2b3;font-family: 'Trirong', serif;">
+                    Lifestyle
+                    <span class="badge badge-primary badge-pill">1</span>
+                </li>
+            </ul>
+            <br/>
+            <div class="jumbotron" style="background-color:#ffc2b3;box-shadow:10px 10px 8px gray; height:500px;font-family: 'Trirong', serif;">
+                <h1 class="display-7">
+                    Political tension rises in WB
+                </h1>
+                <p class="lead">The political tension between BJP and TMC rises as we head to phase four of WB polling.
+                </p>
+            </div>
+        </div>
+            <div class="col-9">
+                <h2 style="text-align: left; font-family: 'Bad Script';">Side effects of vaccine on Women :</h2>
+                    <img src="Puducherry.jpeg" height="300px" width="400px" style="margin-left: 300px;">
+                    <h4>Puducherry Assembly elections | Union Territory records 81.88% turnout</h4>
+                    <p>After a sedate start, polling to elect the 15th Puducherry Legislative Assembly gathered pace over the course of the day in 30 constituencies across the Union Territory (UT) to finish at an overall voter participation rate of about 81.88% on Tuesday.
+
+                        According to election officials, the polling figures are provisional and subject to finalisation later. The turnout is lower than the 85.08% in 2016 and 85.52% in 2011.
+                        
+                        The polling figures were 80.08% for Karaikal and 73.53% for Mahe.
+                        
+                        The process was by and large peaceful barring the odd complaints about temporary EVM snags in a few polling stations and minor protests over canvassing of votes near booths.</p>
+                    <p>The Union Territory had 10,04,507 voters with the demographic wedge increasing between men and women electors since the 2016 elections. There were 5,31,383 women against 4,72,341 men, apart from 116 Third Gender electors and 11,915 PwD (Persons with Disability) voters.
+
+                        The electors included 31,864 first-time voters and 17,041 voters above 80 years of age.
+                        
+                        The fight for the 30-seat Assembly (which also has three additional nominated legislators) is essentially between the Congress-led alliance comprising DMK, CPI and VCK and the NDA consisting of the AINRC, BJP and AIADMK.
+                        
+                        The Congress is contesting in 14 seats [of the 15 seats it apportioned for itself in the alliance], DMK 13, VCK and CPI one each.
+                        
+                        The CPI(M), which was not allotted any seat, has fielded a candidate in Muthialpet constituency.</p>    
+                    <p>In the rival camp, the AINRC is fielding candidates in 16 seats, BJP in nine and AIADMK in five. The PMK, which is not contesting, has extended support for the NDA.
+
+                        Former Chief Ministers V. Narayanasamy (Congress) and N. Rangasamy, AINRC founder-president V. Saminathan, BJP Puducherry president and party candidate in Lawspet and K. Lakshminarayanan, AINRC candidate in Raj Bhavan, were among the early voters.
+                        
+                        The 324 candidates in the fray also include nominees of smaller parties such as Amma Makkal Munnetra Kazhagam, Naam Tamilar Katchi and Makkal Needhi Maiam apart from several Independents.
+                        
+                        By noon, the overall polling across the 1,558 polling stations was below par clocking about 35.64%. By 2 p.m., the rates had picked up to average 53% and reached roughly 78% by 6 p.m.
+                        
+                        The turnout in the five reserved constituencies of Thirubuvanai, Oussudu, Embalam, Nettapakkam and Nedungadu averaged between 80 and 85%. The heaviest polling was reported from Yanam (90.79%), where the Congress did not contest, and the lowest in Raj Bhavan (73.24%).
+                        
+                        The last votes of the day were cast by COVID-19 patients who were allowed to cast votes in designated polling stations wearing PPE gear.
+                        
+                        In all polling stations, COVID-19 safety measures such as hand sanitisers and glove to press the EVM button, were provided to voters.
+                        
+                        The polling exercise involved deployment of 40 companies of the Central Armed Police Force to assist local police (2,420 personnel) IRBn (901) and home guards (1490). While 27 CAPF companies were positioned in Puducherry, six were deployed in Karaikal, four in Yanam and three in Mahe. An estimated 6,835 polling personnel were engaged for the process.</p>
+
+
+
+
+                <script alt="image" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                crossorigin="anonymous"></script>
+            <script alt="image" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+            <script alt="image" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+      
+            <script>
+                function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+            }
+      
+            
+            function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+            document.body.style.backgroundColor = "white";
+            }
+            </script>
+          </body>
+      </html>

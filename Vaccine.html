@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<hyml>
+
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    </head>
+    <style>
+        body {
+  font-family: "Lato", sans-serif;
+  
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
+    </style>
+
+    <body >
+    <nav style="background-color: turquoise;">
+
+        <div class="Top-Nav" style="background-color:#818181;">
+    
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="home.html">Home</a>
+                <a href="#">Profile</a>
+                <a href="Trending.html">Trending</a>
+                <a href="Categories.html">Categories</a>
+              </div>
+              <div  class="position-absolute" style="margin-left: 60px; margin-top: 15px;">
+                <input type="text" placeholder="Search News"  style="text-align: left;">
+            </div>  
+        </div>
+              <div id="main">
+                
+                
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-3" style="position: -webkit-sticky; position: sticky;" >
+
+            <ul class="list-group" >
+                <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #ffc2b3;font-family: 'Trirong', serif;">
+                    Elections
+                    <span class="badge badge-primary badge-pill">14</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #ffc2b3;font-family: 'Trirong', serif;">
+                    Business
+                    <span class="badge badge-primary badge-pill">5</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #ffc2b3;font-family: 'Trirong', serif;">
+                    Technology
+                    <span class="badge badge-primary badge-pill">3</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #ffc2b3;font-family: 'Trirong', serif;">
+                    Entertainment
+                    <span class="badge badge-primary badge-pill">3</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #ffc2b3;font-family: 'Trirong', serif;">
+                    Lifestyle
+                    <span class="badge badge-primary badge-pill">1</span>
+                </li>
+            </ul>
+            <br/>
+            <div class="jumbotron" style="background-color:#ffc2b3;box-shadow:10px 10px 8px gray; height:500px;font-family: 'Trirong', serif;">
+                <h1 class="display-7">
+                    Political tension rises in WB
+                </h1>
+                <p class="lead">The political tension between BJP and TMC rises as we head to phase four of WB polling.
+                </p>
+            </div>
+        </div>
+            <div class="col-9">
+                <h2 style="text-align: left; font-family: 'Bad Script';">Side effects of vaccine on Women :</h2>
+                    <img src="vaccine.jpeg" height="300px" width="400px" style="margin-left: 300px;">
+                    <h4>Coronavirus Vaccine: Common side-effects of getting the jab</h4>
+                    <p>Fever, chills, headache, fatigue, and muscle soreness, are some of the common side effects of getting the COVID-19 vaccination. Most people witness these side effects after getting the jab which simply means that the vaccine is working perfectly and is building antibodies against the virus. But apart from some of these known reactions of the vaccine, some lesser reported side effects have been witnessed by women after the COVID dose.</p>
+                    <h4>The side effect you must look out for</h4>
+                    <p>Some women reported heavier or off-cycle periods than usual after the COVID vaccine. It is believed that the side-effects of getting the jab were left out of the clinical trials mostly likely by mistake. Surprisingly, the tracking system for side effects from the US Centers for Disease Control and Prevention (CDC), known as the Vaccine Adverse Event Reporting System (VAERS) has till now received at least 32 reports of altered periods out of 56,000 participants who responded to the query. This may be a small percentage of the number, but it indicates that there is a link between the missing period and the COVID shot.</p>
+                    <h4>​How the vaccine affect the menstrual cycle</h4>
+                    <p>There is still little research available on how the vaccine can affect the menstrual cycle. But experts believe that it could be because the vaccine is known to stress the immune system and the monthly period may respond to these kinds of changes. It may lead to a heavier period than normal or off-cycle bleeding. The monthly menstrual cycle is believed to be dynamic and may respond to several small changes taking place in daily life. Stress, exercise, diet, sleep cycle and even some medication may cause the menstrual cycle to go off track. Taking these factors into consideration, witnessing any change in the menstrual flow after the vaccine is not unusual.</p>
+                    <h4>​Should you be worried?</h4>
+                    <p>As per experts in the field of medical science, the change in the menstrual cycle could be because of the nanoparticles present in the vaccine, which may alter the period. These nanoparticles can create a temporary immune reaction in some women that may kill some platelets, which plays an important role in clotting. There is nothing to worry about as these cells regenerate frequently, however, the changes could be witnessed during the monthly cycle. This is just another response of the body to vaccination and there is nothing much to worry about. The vaccine will not affect your fertility in any way, an issue most people are scared about.</p>
+                    <h4>The bottom line</h4>
+                    <p>Heavy periods and cramps are normal side effects that women may witness after getting the jab. But one should not panic about it at all. It is normal like fever and headache and you just need to know that you may experience it after getting the jab. In case you may witness unbearable pain or your period extends for more than 5 days then you must consult your doctor.</p>
+                    
+
+
+
+
+
+                <script alt="image" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                crossorigin="anonymous"></script>
+            <script alt="image" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+            <script alt="image" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+      
+            <script>
+                function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+            }
+      
+            
+            function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+            document.body.style.backgroundColor = "white";
+            }
+            </script>
+          </body>
+      </html>
